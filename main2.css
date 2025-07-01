@@ -1,0 +1,150 @@
+body {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  min-height: 100vh;
+  background: var(--color-bg-primary);
+
+}
+.sidebar-footer .theme-toggle {
+  margin-top: -325px;
+  margin-right: -200PX;
+  margin-left: 5PX;
+  width: 100%;
+  min-height: 4px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  white-space: nowrap;
+  color: var(--color-text-primary);
+  background: var(--color-bg-secondary);
+  transition: 0.3s ease;
+}
+.sidebar-footer .theme-toggle:hover {
+  background: var(--color-hover-secondary);
+}
+.theme-toggle .theme-label {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+}
+.theme-toggle .theme-label .theme-text {
+  font-size: 1rem;
+  transition: opacity 0.4s 0.2s ease;
+  
+}
+
+    
+        #timer1mi{
+           position: relative;
+           top: -50px;
+           margin-left: 10px;
+        
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffd700;
+            
+        }
+         #period1m{
+           position: relative;
+           top: -110px;
+           margin-left: 180px;
+         margin-right: -210px;
+            font-size: 18px;
+            background: linear-gradient(90deg, #dd09dd, #00eaff83);
+            box-shadow: 0 2px 2px rgba(0, 221, 255, 0.949);
+            font-weight: bold;
+            color: #000000;
+            
+        }
+         #resultDisplay {
+            font-size: 18px;
+          top: 100px;
+           margin-left: 100px;
+
+            font-weight: bold;
+            color: #ffd700;
+          
+            
+        }
+
+      
+
+
+
+
+.image{
+   display: flex;
+  position: relative;
+  margin-top: -40px;
+  right: -120px;
+  height: 80px;
+  width: 80px;
+}
+.image .profile-pic{
+  width: 100%;
+   display: flex;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(13, 166, 255, 0.476);
+}
+.button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #00FFF0;
+      border: none;
+      border-radius: 30px;
+      color: #000;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    button {
+    padding: 7.5px;
+    background: linear-gradient(45deg, #25e5eb, #00b3ff78);
+    border-radius: 15px;
+    border: none;
+    width: 45%;
+    display: inline;
+    margin: 5px;
+    font-size: 1.1em;
+    }
+    button:hover {
+    background: linear-gradient(45deg, #0072ff, #00c6ff);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+      
+      .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    color: rgb(255, 0, 0);
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+    background-color: #f5f7f600;
+    margin: auto; 
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.484);
+    width: 96%; 
+    max-width: 450px; 
+    border-radius: 10px;
+    position: absolute; 
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Centering the modal */
+}
